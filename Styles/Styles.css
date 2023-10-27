@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Header*/
+Header{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.Hover:hover {
+    color: #DD975B;
+    border-bottom: 2px solid #DD975B;
+}
+
+header {
+    border-bottom: 2px solid #DD975B;
+}
+
+ul li{
+    display: inline-block;
+}
+
+
+
+.Logo{
+    height: 77px;
+    width: 117.5px;
+}
+/*Fin Header*/
+
+/*Mains*/
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.Titulo-Mapa{
+    padding: 10px 10px 10px 10px;
+}
+
+.Titulo-Contacto{
+    padding: 10px 10px 10px 10px;
+}
+
+.Formulario-contacto{
+    padding: 5px 10px 15px 10px;
+}
+
+.Imágenes-galeria{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/*Fin Mains*/
+
+/*Footer*/
+
+footer {
+    background-color: white;
+    border-top: 2px solid #DD975B;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .col-12 {
+    margin-top: 20px; /* Ajusta el valor según el espacio que desees */
+}
+
+.Foto-footer{
+    height: 50px;
+    width: 55px;
+}
+
+.Foto-Inicio{
+    position: sticky;
+    text-align: center;
+}
+/*Fin Footer*/

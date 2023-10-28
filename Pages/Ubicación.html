@@ -5,13 +5,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-        <!--Bootstrap-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <!--Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../Styles/Styles.css">
     <title>Ubicación| Antu Mahuida</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="../Favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
@@ -46,14 +46,13 @@
             </div>
         </nav>
     </header>
-<main>
-    <main>
+    <main class="container-fluid">
         <article>
             <h1 class="Titulo-Mapa">
                 Encontranos
             </h1>
         </article>
-        <section class="d-flex">
+        <section class="d-md-flex">
             <!-- Columna de la ubicación con margen en la parte inferior -->
             <div class="col-md-4 mb-4">
                 <p>San Rafael es una hermosa ciudad ubicada en la provincia de Mendoza, Argentina. Es conocida por su impresionante entorno natural, que incluye viñedos, montañas y ríos. La ciudad se encuentra al sur de la capital provincial, Mendoza, y es un destino popular para los amantes del vino y la naturaleza.</p>
@@ -64,38 +63,40 @@
             </div>
         </section>
     </main>
-</main>
-    <!--Footer-->
-    <footer>
-        <div class="container">
+    <!--Footer parcheado con padding en styles-->
+    <footer class="fixed-bottom">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <!-- En pantallas grandes y medianas (md y up), se muestran 4 columnas en una fila -->
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="../Assets/Footer/Facebook.png" alt="" class="Foto-footer"> Facebook
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="../Assets/Footer/instagram.png" alt="" class="Foto-footer"> Instagram
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="../Assets/Footer/Mail.png" alt="" class="Foto-footer"> antumahuidasr@gmail.com
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="../Assets/Footer/Telefono.png" alt="" class="Foto-footer"> ... <!-- Inserte teléfono aquí -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
                         </li>
                     </ul>
                 </div>

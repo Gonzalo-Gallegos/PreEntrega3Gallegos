@@ -8,14 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-        crossorigin="anonymous">
+     rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="./Styles/Styles.css">
     <title>Inicio | Antu Mahuida</title>
-    
     <!--Favicon-->
     <link rel="shortcut icon" href="./Favicon.png"> <!--Este logo es temporal-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -55,7 +55,7 @@
     <!--FIN HEADER-->
     <!--FIN HEADER-->
 
-    <main class="container mt-5">
+    <main class="container-fluid mt-4">
         <!-- Primera fila para la imagen -->
         <div class="row">
             <div class="col-lg-12">
@@ -64,25 +64,21 @@
                 </section>
             </div>
         </div>
-        
         <!-- Segunda fila para el texto presentación -->
-        <div class="row">
-            <div class="col-lg-12">
+        <div>
+            <div class="row">
+              <div class="col-lg-12">
                 <section>
-                    <article>
-                        <p>¡Descubrí las comodidades de nuestro increíble complejo junto a nosotros! En este video te mostramos un
-                            recorrido por nuestras instalaciones para que puedas apreciar todo lo que tenemos para ofrecerte.
-                            ¡Preparate para vivir una experiencia inolvidable!
-    
-                            Desde nuestras amplias y acogedoras cabañas, hasta nuestra encantadora pileta y áreas de descanso, cada
-                            rincón ha sido diseñado pensando en tu comodidad y disfrute.
-    
-                            Relajate en la tranquilidad de nuestro patio, disfrutá de una tarde de parrilla con amigos y familia, o
-                            sumergite en las aguas de la pileta para refrescarte en los días soleados. ¡Acá vas a encontrarar todo lo
-                            que necesitás para desconectar y relajarte!
-    
-                            No esperes más y comenzá a planificar tu escapada a Antu Mahuida. ¡Te aseguramos una estadía llena de
-                            comodidades y momentos inolvidables!
+                  <article class="mt-3">
+                    <p class="text-lg" class="fs-3">¡Descubrí las comodidades de nuestro increíble complejo junto a nosotros! En este video te mostramos un recorrido por nuestras instalaciones para que puedas apreciar todo lo que tenemos para ofrecerte. ¡Preparate para vivir una experiencia inolvidable!</p>
+                    <p class="text-lg" class="fs-3">Desde nuestras amplias y acogedoras cabañas, hasta nuestra encantadora pileta y áreas de descanso, cada rincón ha sido diseñado pensando en tu comodidad y disfrute.</p>
+                    <p class="text-lg" class="fs-3">Relajate en la tranquilidad de nuestro patio, disfrutá de una tarde de parrilla con amigos y familia, o sumergite en las aguas de la pileta para refrescarte en los días soleados. ¡Acá vas a encontrar todo lo que necesitás para desconectar y relajarte!</p>
+                    <p class="text-lg" class="fs-3">No esperes más y comenzá a planificar tu escapada a Antu Mahuida. ¡Te aseguramos una estadía llena de comodidades y momentos inolvidables!</p>
+                  </article>
+                </section>
+              </div>
+            </div>
+          </div>
                         </p>
                     </article>
                 </section>
@@ -90,37 +86,40 @@
         </div>
     </main>
     
-    <!--Footer-->
-    <footer>
-        <div class="container">
+    <!--Footer parcheado con padding en styles-->
+    <footer class="fixed-bottom">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <!-- En pantallas grandes y medianas (md y up), se muestran 4 columnas en una fila -->
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="./Assets/Footer/Facebook.png" alt="" class="Foto-footer"> Facebook
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="./Assets/Footer/instagram.png" alt="" class="Foto-footer"> Instagram
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="./Assets/Footer/Mail.png" alt="" class="Foto-footer"> antumahuidasr@gmail.com
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-3 col-6">
                     <ul class="list-unstyled">
                         <li>
                             <img src="./Assets/Footer/Telefono.png" alt="" class="Foto-footer"> ... <!-- Inserte teléfono aquí -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
                         </li>
                     </ul>
                 </div>

@@ -1,3 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
 
+Header {
+  display: flex;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.Hover:hover {
+  color: #DD975B;
+  border-bottom: 2px solid #DD975B;
+}
+
+header {
+  border-bottom: 2px solid #DD975B;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.Logo {
+  height: 77px;
+  width: 117.5px;
+}
+
+footer {
+  background-color: white;
+  border-top: 2px solid #DD975B;
+  font-family: "Montserrat", sans-serif;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1%;
+}
+
+.Foto-footer {
+  height: 50px;
+  width: 55px;
+}
+
+.Foto-Inicio {
+  position: sticky;
+  text-align: center;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30%; /*Parche*/
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.Titulo-Contacto {
+  padding: 10px 10px 10px 10px;
+}
+
+.Formulario-contacto {
+  padding: 5px 10px 15px 10px;
+}
+
+.Titulo-Mapa {
+  padding: 10px 10px 10px 10px;
+}
 
 /*# sourceMappingURL=Stlyles.css.map */

@@ -1,16 +1,13 @@
 footer{
     background-color: white;
-    border-top: 2px solid #DD975B;
-    font-family: 'Montserrat', sans-serif;
-    bottom: 0;
+    border-top: 2px solid $color-principal;
+    font-family: $fuente-principal;
     width: 100%;
     padding-top: 1%;
-}
-
-
-.Foto-footer{
-    height: 50px;
-    width: 55px;
+    .Foto-footer{
+        height: 50px;
+        width: 55px;
+    }
 }
 
 .Foto-Inicio{

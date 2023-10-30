@@ -1,18 +1,13 @@
 Header{
     display: flex;
-}
-
-.navbar {
-    background-color: white;
-}
-
-.Hover:hover {
-    color: #DD975B;
-    border-bottom: 2px solid #DD975B;
-}
-
-header {
-    border-bottom: 2px solid #DD975B;
+    border-bottom: 2px solid $color-principal;
+    .navbar {
+        background-color: white;
+        .Hover:hover {
+            color: $color-principal;
+            border-bottom: 2px solid $color-principal;
+        }
+    }
 }
 
 ul li{

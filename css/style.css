@@ -4,23 +4,18 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
 }
 
 Header {
   display: flex;
-}
-
-.navbar {
-  background-color: white;
-}
-
-.Hover:hover {
-  color: #DD975B;
   border-bottom: 2px solid #DD975B;
 }
-
-header {
+Header .navbar {
+  background-color: white;
+}
+Header .navbar .Hover:hover {
+  color: #DD975B;
   border-bottom: 2px solid #DD975B;
 }
 
@@ -36,13 +31,11 @@ ul li {
 footer {
   background-color: white;
   border-top: 2px solid #DD975B;
-  font-family: "Montserrat", sans-serif;
-  bottom: 0;
+  font-family: sans-serif;
   width: 100%;
   padding-top: 1%;
 }
-
-.Foto-footer {
+footer .Foto-footer {
   height: 50px;
   width: 55px;
 }
@@ -53,11 +46,9 @@ footer {
 }
 
 main {
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 30%; /*Parche*/
+  font-family: sans-serif;
 }
-
-a {
+main a {
   text-decoration: none;
   color: #FFF;
   font-weight: bold;
@@ -75,4 +66,4 @@ a {
   padding: 10px 10px 10px 10px;
 }
 
-/*# sourceMappingURL=Stlyles.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -3,9 +3,14 @@ Header{
     border-bottom: 2px solid $color-principal;
     .navbar {
         background-color: white;
+    .container-fluid{
+        background-color: white;
+        width: 100vw;
         .Hover:hover {
             color: $color-principal;
             border-bottom: 2px solid $color-principal;
+        
+            }
         }
     }
 }

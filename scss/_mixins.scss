@@ -1,0 +1,5 @@
+@mixin tarjetas ($color-fondo, $alto-tarjeta, $ancho-tarjeta) {
+    background-color: $color-fondo;
+    height: $alto-tarjeta;
+    width: $ancho-tarjeta;
+}

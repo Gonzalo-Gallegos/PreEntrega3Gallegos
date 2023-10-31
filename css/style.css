@@ -14,7 +14,11 @@ Header {
 Header .navbar {
   background-color: white;
 }
-Header .navbar .Hover:hover {
+Header .navbar .container-fluid {
+  background-color: white;
+  width: 100vw;
+}
+Header .navbar .container-fluid .Hover:hover {
   color: #DD975B;
   border-bottom: 2px solid #DD975B;
 }
@@ -64,6 +68,12 @@ main a {
 
 .Titulo-Mapa {
   padding: 10px 10px 10px 10px;
+}
+
+.tarjetas {
+  background-color: white;
+  height: 18rem;
+  width: 18rem;
 }
 
 /*# sourceMappingURL=style.css.map */

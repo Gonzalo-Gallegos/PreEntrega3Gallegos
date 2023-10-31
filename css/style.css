@@ -7,6 +7,12 @@
   font-family: sans-serif;
 }
 
+body {
+  position: relative;
+  padding-bottom: 10em;
+  min-height: 100vh;
+}
+
 Header {
   display: flex;
   border-bottom: 2px solid #DD975B;
@@ -37,6 +43,7 @@ footer {
   border-top: 2px solid #DD975B;
   font-family: sans-serif;
   width: 100%;
+  bottom: 0;
   padding-top: 1%;
 }
 footer .Foto-footer {
@@ -54,7 +61,7 @@ main {
 }
 main a {
   text-decoration: none;
-  color: #FFF;
+  color: white;
   font-weight: bold;
 }
 
